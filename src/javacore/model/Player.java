@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Player {
 
-    ArrayList<Heroes> heroTeam = new ArrayList<Heroes>();
+    ArrayList<Herois> heroTeam = new ArrayList<Herois>();
 
 
     private String playerName;
@@ -26,7 +26,7 @@ public class Player {
     }
 
 
-    public void comprarHeroi(Heroes heroName) {
+    public void comprarHeroi(Herois heroName) {
         if (getSaldo() > heroName.getPrice()) {
             saldo = saldo - heroName.getPrice();
             heroTeam.add(heroName);
@@ -35,7 +35,7 @@ public class Player {
         }
     }
 
-    public void venderHeroi(Heroes heroName) {
+    public void venderHeroi(Herois heroName) {
         if (heroName == null) {
             System.out.println("Héroi não pode ser nulo! ❌");
         }

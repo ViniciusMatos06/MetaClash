@@ -1,4 +1,11 @@
-public class Heroes {
+package javacore.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class Herois {
 
     private String heroName;
     private double price;
@@ -8,7 +15,7 @@ public class Heroes {
     private double defence;
     private double inteligence;
 
-    public Heroes (String heroName, int hp, double strangth, double speed, double defence, double price, double inteligence) {
+    public Herois(String heroName, int hp, double strangth, double speed, double defence, double price, double inteligence) {
         this.heroName = heroName;
         this.hp = hp;
         this.strength = strangth;
