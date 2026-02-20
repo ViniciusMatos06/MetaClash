@@ -1,5 +1,3 @@
-package javacore.model;
-
 public class Heroes {
 
     private String heroName;
