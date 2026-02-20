@@ -125,3 +125,5 @@ IntelliJ IDEA
 🎯 Status
 
 🚧 Em desenvolvimento – Projeto para prática de arquitetura e lógica de jogo backend.
+
+![Concept art](img/Dark%20Knight%20vs%20Thor.png)
