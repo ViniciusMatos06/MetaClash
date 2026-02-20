@@ -4,13 +4,13 @@ MetaClash é um mini game backend desenvolvido em Java (POO) com foco em prátic
 
 O projeto simula um sistema de:
 
-🛒 Compra de heróis
+- Compra de heróis
 
-👥 Formação de time (máximo 3 heróis)
+- Formação de time (máximo 3 heróis)
 
-⚔️ Sistema de batalha baseado em estatísticas
+- Sistema de batalha baseado em estatísticas
 
-📊 Cálculo de média de atributos do time
+- Cálculo de média de atributos do time
 
 🚀 Objetivo do Projeto
 
