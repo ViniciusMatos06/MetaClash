@@ -1,6 +1,12 @@
-package model;
+package javacore.model;
 
 import java.util.ArrayList;
+
+
+
+// dia 20/02 fazer o sistema de ataque do jogo
+
+
 
 public class Player {
 
