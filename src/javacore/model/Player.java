@@ -27,6 +27,10 @@ public class Player {
 
 
     public void comprarHeroi(Herois heroName) {
+        if (heroTeam.size()>=3){
+            System.out.println("Você não pode comprar outro personagem, você já possui 3. Venda um se quiser prosseguir com a compra");
+            return;
+        }
         if (getSaldo() > heroName.getPrice()) {
             saldo = saldo - heroName.getPrice();
             heroTeam.add(heroName);
